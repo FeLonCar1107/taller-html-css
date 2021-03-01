@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url("Fondo\ guitarras.jpg");
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container{
+    width: 1100px;
+    margin:0px auto;
+    border: 2px solid black;
+}
+
+header{
+    background-color: silver;
+    height: 100px;
+    width:100%;
+    margin: 0px;
+    text-align: center;
+    line-height: 100px;
+    color: black;
+    border-bottom: 3px solid blanchedalmond;
+}
+
+ul li{
+    text-align: center;
+    list-style: none;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    line-height: 30px;
+}
+
+.clearfix{
+    clear:both;
+}
+#content{
+    float: left;
+    width: 78%;
+    min-height: 500px;
+    background-color:honeydew;
+}
+
+.article{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+aside{
+    float: left;
+    width: 20%;
+    background-color: rgb(204, 203, 200);
+    min-height: 480px;
+    padding: 10px;
+}
+
+footer{
+    background: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
